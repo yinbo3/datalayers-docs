@@ -5,10 +5,10 @@
 | <div style="width:150px">命令类别</div>        | 命令      | <div style="width:100px">支持级别</div>     | 备注 |
 | ---           | ---       | ---         | --- |
 | **连接管理**    | PING     | 完全支持      |     |
-|                | SELECT   | 完全支持      | 支持 [0, 65535] 范围内的 index   |
-|                | AUTH     | 完全支持      | [user] password   |
+|               | SELECT   | 完全支持      | 支持 [0, 65535] 范围内的 index   |
+| **认证**       | AUTH     | 完全支持      | [user] password   |
 | **通用命令**    | KEYS     | 完全支持      |     |
-|                | DEL      | 完全支持      |     |
+|               | DEL      | 完全支持      |     |
 | **事务**       | MULTI     | 完全支持      |     |
 |               | EXEC       | 完全支持     | 如果事务中的键与另一个节点上的事务发生冲突，将返回错误。此行为与Redis有所不同，但我们提供了重试事务的选项。 |
 |               | DISCARD   | 完全支持       |     |
