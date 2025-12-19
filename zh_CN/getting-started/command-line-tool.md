@@ -51,7 +51,7 @@ dlsql -h <host> -P <port> -u admin -p public
 
 ## 创建表
 
-首先选中要执行操作的数据库：
+首先选择要执行操作的数据库：
 
 ``` sql
 > use demo;
